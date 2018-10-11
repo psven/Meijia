@@ -1,0 +1,6 @@
+github "ashleymills/Reachability.swift"
+github "Alamofire/Alamofire" ~> 4.7
+github "QMUI/QMUI_iOS"
+github "SwiftyJSON/SwiftyJSON" ~> 4.0
+github "SnapKit/SnapKit" ~> 4.0.0
+github "onevcat/Kingfisher" ~> 4.0
