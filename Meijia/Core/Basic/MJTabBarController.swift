@@ -27,19 +27,19 @@ class MJTabBarController: UITabBarController {
         UITabBarItem.appearance().setTitleTextAttributes(selectedAttrs, for: .selected)
         
         
-        let designVC = MJNavigationController.init(rootViewController: DesignViewController())
-        designVC.hidesBottomBarWhenPushed = false
-        designVC.tabBarItem = UITabBarItem.init(title: "设计", image: UIImage(named: ""), selectedImage: UIImage(named: ""))
-        
-        let communityVC = MJNavigationController.init(rootViewController: CommunityViewController())
-        communityVC.hidesBottomBarWhenPushed = false
-        communityVC.tabBarItem = UITabBarItem.init(title: "社区", image: UIImage(named: ""), selectedImage: UIImage(named: ""))
-        
-        let mineVC = MJNavigationController.init(rootViewController: MineViewController())
-        mineVC.hidesBottomBarWhenPushed = false
-        mineVC.tabBarItem = UITabBarItem.init(title: "我的", image: UIImage(named: ""), selectedImage: UIImage(named: ""))
-        
-        self.viewControllers = [designVC, communityVC, mineVC]
+//        let designVC = MJNavigationController.init(rootViewController: DesignViewController())
+//        designVC.hidesBottomBarWhenPushed = false
+//        designVC.tabBarItem = UITabBarItem.init(title: "设计", image: UIImage(named: ""), selectedImage: UIImage(named: ""))
+//        
+//        let communityVC = MJNavigationController.init(rootViewController: CommunityViewController())
+//        communityVC.hidesBottomBarWhenPushed = false
+//        communityVC.tabBarItem = UITabBarItem.init(title: "社区", image: UIImage(named: ""), selectedImage: UIImage(named: ""))
+//        
+//        let mineVC = MJNavigationController.init(rootViewController: MineViewController())
+//        mineVC.hidesBottomBarWhenPushed = false
+//        mineVC.tabBarItem = UITabBarItem.init(title: "我的", image: UIImage(named: ""), selectedImage: UIImage(named: ""))
+//        
+//        self.viewControllers = [designVC, communityVC, mineVC]
         
     }
     

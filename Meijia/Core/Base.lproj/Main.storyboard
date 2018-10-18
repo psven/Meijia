@@ -17,14 +17,43 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="test_room_7" translatesAutoresizingMaskIntoConstraints="NO" id="5Gv-st-Q8m">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="270"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="270" id="ECg-uL-fZy"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="美家软装" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KAe-w4-iLm">
+                                <rect key="frame" x="55" y="59" width="82" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1UF-Zz-sg1">
+                                <rect key="frame" x="0.0" y="240" width="375" height="378"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="1UF-Zz-sg1" secondAttribute="bottom" id="2op-6H-0Xu"/>
+                            <constraint firstItem="1UF-Zz-sg1" firstAttribute="top" secondItem="5Gv-st-Q8m" secondAttribute="bottom" constant="-30" id="4Je-Vl-QKv"/>
+                            <constraint firstItem="5Gv-st-Q8m" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6wA-M1-oI4"/>
+                            <constraint firstItem="5Gv-st-Q8m" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Lcl-ar-3dx"/>
+                            <constraint firstItem="1UF-Zz-sg1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="YlX-IH-7Ev"/>
+                            <constraint firstItem="5Gv-st-Q8m" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="cEI-qa-1wf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1UF-Zz-sg1" secondAttribute="trailing" id="wWy-3g-fWV"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="设计" id="Gn4-I9-7yL"/>
+                    <nil key="simulatedTopBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2015" y="567"/>
+            <point key="canvasLocation" x="2013.5999999999999" y="566.26686656671666"/>
         </scene>
         <!--设计-->
         <scene sceneID="N0i-ei-0Os">
@@ -138,8 +167,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="我的" width="32" height="32"/>
-        <image name="社区" width="32" height="32"/>
-        <image name="设计" width="32" height="32"/>
+        <image name="test_room_7" width="600" height="400"/>
+        <image name="我的" width="25" height="25"/>
+        <image name="社区" width="25" height="25"/>
+        <image name="设计" width="25" height="25"/>
     </resources>
 </document>

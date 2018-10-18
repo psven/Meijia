@@ -38,6 +38,8 @@
 		D49056A321481D70009D9527 /* MeijiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49056A221481D70009D9527 /* MeijiaTests.swift */; };
 		D49056AE21481D70009D9527 /* MeijiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49056AD21481D70009D9527 /* MeijiaUITests.swift */; };
 		D497E1D72157980A005B3697 /* QMUIConfigurationTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = D497E1D62157980A005B3697 /* QMUIConfigurationTemplate.m */; };
+		D4BD33732178CD68008BF0F1 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BD33722178CD68008BF0F1 /* AlertController.swift */; };
+		D4BD33752178E46C008BF0F1 /* UIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BD33742178E46C008BF0F1 /* UIConfiguration.swift */; };
 		D4CCFDEC216CBE750091E345 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CCFDEB216CBE750091E345 /* MineViewController.swift */; };
 		D4CCFDEF216CC19C0091E345 /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CCFDEE216CC19C0091E345 /* CommunityViewController.swift */; };
 /* End PBXBuildFile section */
@@ -113,6 +115,8 @@
 		D49056AF21481D70009D9527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D497E1D52157980A005B3697 /* QMUIConfigurationTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIConfigurationTemplate.h; sourceTree = "<group>"; };
 		D497E1D62157980A005B3697 /* QMUIConfigurationTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIConfigurationTemplate.m; sourceTree = "<group>"; };
+		D4BD33722178CD68008BF0F1 /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		D4BD33742178E46C008BF0F1 /* UIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConfiguration.swift; sourceTree = "<group>"; };
 		D4CCFDEB216CBE750091E345 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
 		D4CCFDEE216CC19C0091E345 /* CommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -162,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				D44DBE41215916180085E816 /* UIAppearance.swift */,
+				D4BD33742178E46C008BF0F1 /* UIConfiguration.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -267,6 +272,7 @@
 				D482548A214AC25D0039EB66 /* UIHelper.swift */,
 				D4825488214AC24E0039EB66 /* UIVIewHelper.swift */,
 				D4825484214AC22A0039EB66 /* Tips.swift */,
+				D4BD33722178CD68008BF0F1 /* AlertController.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -653,6 +659,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4BD33752178E46C008BF0F1 /* UIConfiguration.swift in Sources */,
 				D490569021481D6F009D9527 /* ViewController.swift in Sources */,
 				D44DBE3F21589AE80085E816 /* MJNavigationViewController.swift in Sources */,
 				D44DBE3B215890BA0085E816 /* BasicViewController.swift in Sources */,
@@ -665,6 +672,7 @@
 				D490568E21481D6F009D9527 /* AppDelegate.swift in Sources */,
 				D497E1D72157980A005B3697 /* QMUIConfigurationTemplate.m in Sources */,
 				D44DBE3D21589A170085E816 /* MJTabBarController.swift in Sources */,
+				D4BD33732178CD68008BF0F1 /* AlertController.swift in Sources */,
 				D482548B214AC25D0039EB66 /* UIHelper.swift in Sources */,
 				D44DBE4521591A110085E816 /* DesignViewController.swift in Sources */,
 				D44DBE42215916180085E816 /* UIAppearance.swift in Sources */,
