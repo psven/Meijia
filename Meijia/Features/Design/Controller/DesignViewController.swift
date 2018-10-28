@@ -8,11 +8,11 @@
 
 import Foundation
 
-class DesignViewController: BasicViewController {
+class DesignViewController: MJBasicViewController {
     
     override func didInitialize() {
         super.didInitialize()
-        
+        UIHelper.isIPhone()
     }
     
     override func initSubviews() {

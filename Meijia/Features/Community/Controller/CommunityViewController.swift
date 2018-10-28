@@ -8,7 +8,7 @@
 
 import Foundation
 
-class CommunityViewController: BasicViewController {
+class CommunityViewController: MJBasicViewController {
     
     override func didInitialize() {
         super.didInitialize()

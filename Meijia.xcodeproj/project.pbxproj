@@ -7,10 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D44DBE3B215890BA0085E816 /* BasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44DBE3A215890BA0085E816 /* BasicViewController.swift */; };
+		D44DBE3B215890BA0085E816 /* MJBasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44DBE3A215890BA0085E816 /* MJBasicViewController.swift */; };
 		D44DBE3D21589A170085E816 /* MJTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44DBE3C21589A170085E816 /* MJTabBarController.swift */; };
 		D44DBE3F21589AE80085E816 /* MJNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44DBE3E21589AE80085E816 /* MJNavigationViewController.swift */; };
-		D44DBE42215916180085E816 /* UIAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44DBE41215916180085E816 /* UIAppearance.swift */; };
 		D44DBE4521591A110085E816 /* DesignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44DBE4421591A110085E816 /* DesignViewController.swift */; };
 		D471DEF62149617200EBA5C0 /* UIImage+Brightness.m in Sources */ = {isa = PBXBuildFile; fileRef = D471DEF52149617200EBA5C0 /* UIImage+Brightness.m */; };
 		D4825483214AC1860039EB66 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4825482214AC1860039EB66 /* Default-568h@2x.png */; };
@@ -81,10 +80,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D44DBE3A215890BA0085E816 /* BasicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicViewController.swift; sourceTree = "<group>"; };
+		D44DBE3A215890BA0085E816 /* MJBasicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MJBasicViewController.swift; sourceTree = "<group>"; };
 		D44DBE3C21589A170085E816 /* MJTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MJTabBarController.swift; sourceTree = "<group>"; };
 		D44DBE3E21589AE80085E816 /* MJNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MJNavigationViewController.swift; sourceTree = "<group>"; };
-		D44DBE41215916180085E816 /* UIAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAppearance.swift; sourceTree = "<group>"; };
 		D44DBE4421591A110085E816 /* DesignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignViewController.swift; sourceTree = "<group>"; };
 		D471DEF42149617200EBA5C0 /* UIImage+Brightness.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Brightness.h"; sourceTree = "<group>"; };
 		D471DEF52149617200EBA5C0 /* UIImage+Brightness.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Brightness.m"; sourceTree = "<group>"; };
@@ -100,6 +98,7 @@
 		D48254A3214AC3880039EB66 /* QMUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QMUIKit.framework; path = Carthage/Build/iOS/QMUIKit.framework; sourceTree = SOURCE_ROOT; };
 		D48254A4214AC3880039EB66 /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reachability.framework; path = Carthage/Build/iOS/Reachability.framework; sourceTree = SOURCE_ROOT; };
 		D48254A5214AC3880039EB66 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = SOURCE_ROOT; };
+		D4826C3E21859C8700E91FBE /* QMUICommonDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUICommonDefines.h; sourceTree = "<group>"; };
 		D490568A21481D6F009D9527 /* Meijia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meijia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D490568D21481D6F009D9527 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D490568F21481D6F009D9527 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -155,7 +154,7 @@
 		D44DBE392158909E0085E816 /* Basic */ = {
 			isa = PBXGroup;
 			children = (
-				D44DBE3A215890BA0085E816 /* BasicViewController.swift */,
+				D44DBE3A215890BA0085E816 /* MJBasicViewController.swift */,
 				D44DBE3C21589A170085E816 /* MJTabBarController.swift */,
 				D44DBE3E21589AE80085E816 /* MJNavigationViewController.swift */,
 			);
@@ -165,7 +164,7 @@
 		D44DBE402159159A0085E816 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				D44DBE41215916180085E816 /* UIAppearance.swift */,
+				D4826C3E21859C8700E91FBE /* QMUICommonDefines.h */,
 				D4BD33742178E46C008BF0F1 /* UIConfiguration.swift */,
 			);
 			path = UI;
@@ -374,6 +373,7 @@
 		D471DEEA2149539D00EBA5C0 /* Design */ = {
 			isa = PBXGroup;
 			children = (
+				D4826C402185C63600E91FBE /* View */,
 				D44DBE43215919FB0085E816 /* Controller */,
 			);
 			path = Design;
@@ -443,6 +443,13 @@
 				D48254A5214AC3880039EB66 /* SwiftyJSON.framework */,
 			);
 			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4826C402185C63600E91FBE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		D490568121481D6F009D9527 = {
@@ -662,7 +669,7 @@
 				D4BD33752178E46C008BF0F1 /* UIConfiguration.swift in Sources */,
 				D490569021481D6F009D9527 /* ViewController.swift in Sources */,
 				D44DBE3F21589AE80085E816 /* MJNavigationViewController.swift in Sources */,
-				D44DBE3B215890BA0085E816 /* BasicViewController.swift in Sources */,
+				D44DBE3B215890BA0085E816 /* MJBasicViewController.swift in Sources */,
 				D4CCFDEC216CBE750091E345 /* MineViewController.swift in Sources */,
 				D4825487214AC23F0039EB66 /* UIImage+Processing.swift in Sources */,
 				D4825489214AC24E0039EB66 /* UIVIewHelper.swift in Sources */,
@@ -675,7 +682,6 @@
 				D4BD33732178CD68008BF0F1 /* AlertController.swift in Sources */,
 				D482548B214AC25D0039EB66 /* UIHelper.swift in Sources */,
 				D44DBE4521591A110085E816 /* DesignViewController.swift in Sources */,
-				D44DBE42215916180085E816 /* UIAppearance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,7 +8,7 @@
 
 import Foundation
 
-class MineViewController: BasicViewController {
+class MineViewController: MJBasicViewController {
     
     override func didInitialize() {
         super.didInitialize()
